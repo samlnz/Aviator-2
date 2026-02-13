@@ -1,10 +1,10 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { Socket } from "socket.io-client";
 import './App.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Socket } from "socket.io-client";
 
 export type aviatorStateType = {
     token: string,
